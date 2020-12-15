@@ -1,0 +1,21 @@
+{
+    "name": "guilder-theme",
+    "displayName": "guilder theme",
+    "description": "theme for vscode by guilder",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "guilderTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/guilderTheme-color-theme.json"
+            }
+        ]
+    }
+}
